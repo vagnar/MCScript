@@ -1,12 +1,12 @@
 -- Programme startup
-while true do
 
-  -- A modifier
-  moniteur = "right" --Emplacement du moniteur
-  reacteur = "BigReactors-Reactor_2" --Emplacement du Network Cable
-  sirene = "back" -- Emplacement de  l' alarme en cas de surchauffe
-  
-  -- Script
+-- A modifier
+moniteur = "right" --Emplacement du moniteur
+reacteur = "BigReactors-Reactor_2" --Emplacement du Network Cable
+sirene = "back" -- Emplacement de  l' alarme en cas de surchauffe
+
+-- Script
+while true do
   m = peripheral.wrap(moniteur)
   r = peripheral.wrap(reacteur)
   m.clear()
